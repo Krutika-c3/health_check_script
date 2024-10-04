@@ -1,0 +1,70 @@
+--------------------------------------------------------------------------------------
+2024-04-03 16:38:19 - START APPLICATION
+--------------------------------------------------------------------------------------
+2024-04-03 16:38:23 - BUILD SUCCESS
+2024-04-03 16:38:23 - Application is not yet running. Retrying for 1 time
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+2024-04-03 16:38:24 - Application is not yet running. Retrying for 2 time
+2024-04-03 16:38:24.798  INFO 101831 --- [           main] com.script.Main                          : Starting Main v1.0-SNAPSHOT on krutika-chaurishiya with PID 101831 (/home/krutika/Documents/OCP/linux/projects/healthCheck/target/healthCheck-1.0-SNAPSHOT.jar started by krutika in /home/krutika/Documents/OCP/linux/projects/healthCheck)
+2024-04-03 16:38:24.802  INFO 101831 --- [           main] com.script.Main                          : No active profile set, falling back to default profiles: default
+2024-04-03 16:38:24.904  INFO 101831 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b37e0d2: startup date [Wed Apr 03 16:38:24 IST 2024]; root of context hierarchy
+2024-04-03 16:38:25 - Application is not yet running. Retrying for 3 time
+2024-04-03 16:38:26 - Application is not yet running. Retrying for 4 time
+2024-04-03 16:38:26.939  INFO 101831 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2024-04-03 16:38:26.956  INFO 101831 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2024-04-03 16:38:26.959  INFO 101831 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2024-04-03 16:38:27.050  INFO 101831 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-03 16:38:27.050  INFO 101831 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2150 ms
+2024-04-03 16:38:27.366  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2024-04-03 16:38:27.371  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+2024-04-03 16:38:27.372  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2024-04-03 16:38:27.372  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2024-04-03 16:38:27.372  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2024-04-03 16:38:27.372  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2024-04-03 16:38:27.373  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2024-04-03 16:38:27.373  INFO 101831 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2024-04-03 16:38:27 - Application is not yet running. Retrying for 5 time
+2024-04-03 16:38:27.873  INFO 101831 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b37e0d2: startup date [Wed Apr 03 16:38:24 IST 2024]; root of context hierarchy
+2024-04-03 16:38:27.973  INFO 101831 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login]}" onto java.lang.String com.script.controller.Controller.getLoggedInUserName()
+2024-04-03 16:38:27.980  INFO 101831 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2024-04-03 16:38:27.981  INFO 101831 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2024-04-03 16:38:28.025  INFO 101831 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2024-04-03 16:38:28.025  INFO 101831 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2024-04-03 16:38:28.079  INFO 101831 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2024-04-03 16:38:28.489  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2024-04-03 16:38:28.490  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.492  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2024-04-03 16:38:28.492  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.493  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.494  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.495  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.496  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2024-04-03 16:38:28.498  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.500  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.501  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.501  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2024-04-03 16:38:28.502  INFO 101831 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2024-04-03 16:38:28.653  INFO 101831 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2024-04-03 16:38:28.664  INFO 101831 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2024-04-03 16:38:28 - Application is not yet running. Retrying for 6 time
+2024-04-03 16:38:28.800  INFO 101831 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2024-04-03 16:38:28.806  INFO 101831 --- [           main] com.script.Main                          : Started Main in 4.665 seconds (JVM running for 5.208)
+2024-04-03 16:38:29.861  INFO 101831 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2024-04-03 16:38:29.861  INFO 101831 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2024-04-03 16:38:29.872  INFO 101831 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+2024-04-03 16:38:29 - Application is up and running.
+2024-04-03 16:38:29 - Health endpoint is not yet available, Retrying for 1 time
+2024-04-03 16:38:30 - Health endpoint is accessible and UP
+--------------------------------------------------------------------------------------
+2024-04-03 16:38:33 - STOP APPLICATION
+--------------------------------------------------------------------------------------
+2024-04-03 16:38:33 - Stopping Application running on port 8080...
+2024-04-03 16:38:34 - Application stopped
